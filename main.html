@@ -11,12 +11,14 @@
   <body>
     <header>
     <nav>
-        <h1>GSC</h1>
+      <section>
+        <h1>GOKU</h1>
+      </section>
         <ul id="nav">
            <li><a class="homered" href="main.html">HOME</a></li>
-            <li><a class="homeblack" href="main.html" target="fac">FACILITIES</a></li>
-            <li><a class="homeblack" href="#">TESTIMONIALS</a></li>
-            <li><a class="homeblack" href="#">CONTACT</a></li>
+            <li><a class="homeblack" href="#facilities">FACILITIES</a></li>
+            <li><a class="homeblack" href="#testimonials">TESTIMONIALS</a></li>
+            <li><a class="homeblack" href="#contact">CONTACT</a></li>
         </ul>
           </nav>
     </header>
@@ -28,7 +30,7 @@
         <br>
         <button class="buttonhome">MORE INFO</button>
     </div>
-      <div class="facilities" name="faci">
+      <div class="facilities" id="facilities">
         <h1>FACILITIES</h1>
       </div>
     <div class="image2">
@@ -90,8 +92,8 @@
         </div>
 
     </div>
-    <div class="testimonials">
-      <h1 style="text-color:white;">TESTIMONIAL</h1>
+    <div class="testimonials" id="testimonials">
+      <h1 style="text-color:white;">CUSTOMER TESTIMONIALS</h1>
     </div>
 
    <div class="demo">
@@ -140,7 +142,8 @@ $(document).ready(function(){
 });
 </script>
 
-    <div class="facilities">
+
+    <div class="facilities" id="contact">
       <h1>CONTACT US</h1>
     </div>
 
@@ -151,6 +154,12 @@ $(document).ready(function(){
       <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
       <input type="submit" value="SUBMIT"/>
     </form>
+
+<div class="foot">
+
+  <footer>&copy; Copyright 2019, Goku Sports Complex</footer>
+
+</div>
 
 
   </body>
