@@ -18,9 +18,9 @@ header{
     height: 50px;
 }
 section{
-  margin-left: 300px;
-  float: right;
-  margin-right: 50px;
+  margin-left: 10px;
+  float: left;
+
   font-size: 38px;
   margin-bottom: 15px;
 }
@@ -39,7 +39,8 @@ header h1{
 nav ul{
     display: inline;
     padding: 0px;
-    float: left;
+    float: right;
+    margin-right: 30px;
 }
 
 nav ul li{
