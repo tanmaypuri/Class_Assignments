@@ -5,7 +5,12 @@
 body{
     margin: 0;
 }
-
+.foot{
+  background-color: #CC4949;
+  text-align: center;
+  font-family: sans-serif;
+  height: 20px;
+}
 header{
     background: black;
     color: white;
@@ -28,7 +33,6 @@ header h1{
     margin-top: 0px;
     margin-bottom: 15px;
     margin-right: 10px;
-
     color: #CC4949;
 }
 
@@ -162,8 +166,6 @@ background-color: #d9b7b1;
 
 /* The wrapper for each item */
 .rig-cell {
-    /*margin:12px;
-    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
     display:block;
     position: relative;
     overflow:hidden;
@@ -245,9 +247,9 @@ background-color: #d9b7b1;
     }
 }
 
-.demo{ background: rgb(30,30,40);
+.demo{ background: #151515;
       margin-top: -40px;
-      background-image: url("images/wood.jpg");
+
       background-position: center;
       background-size: cover;
       width: 100%;
@@ -257,7 +259,7 @@ background-color: #d9b7b1;
     padding: 35px 50px;
     margin: 0 20px 30px;
     border-radius: 0 70px 0 70px;
-    border: 5px solid #ffc33c;
+    border: 5px solid #CC4949;
     border-left: none;
     border-right: none;
     text-align: center;
@@ -277,11 +279,12 @@ background-color: #d9b7b1;
 .testimonial .title{
     display: block;
     margin: 0 0 7px 0;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
-    color: #ffc33c;
+    color: #CC4949;
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-family: monospace;
 }
 .testimonial .post{
     display: block;
@@ -289,11 +292,14 @@ background-color: #d9b7b1;
     color: #fff;
     text-transform: capitalize;
     margin-bottom: 20px;
+    font-family: monospace;
 }
 .testimonial .description{
     font-size: 16px;
     color: #fff;
     line-height: 30px;
+    font-family: sans-serif;
+
 }
 .owl-theme .owl-controls{ margin-top: 0; }
 .owl-theme .owl-controls .owl-page span{
@@ -301,13 +307,13 @@ background-color: #d9b7b1;
     opacity: 0.8;
     transition: all 0.3s ease 0s;
 }
-.owl-theme .owl-controls .owl-page.active span{ background: #ffc33c; }
+.owl-theme .owl-controls .owl-page.active span{ background: #CC4949; }
 
 
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body { background:#151515;
+body { background:#151515   ;
 background-position: center;
 background-size: cover;
 width: 100%;
